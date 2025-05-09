@@ -20,27 +20,40 @@
       </fieldset>
       <fieldset>
         <legend>당신에 대해서 알고 싶어요!</legend>
-        <p>취미를 선택해 주세요</p>
-        <label><input type="radio" name="hobby">게임하기</label>
-        <label><input type="radio" name="hobby">음악듣기</label>
-        <label><input type="radio" name="hobby">아이스음료 마시기</label>
-        <p>좋아하는 음료를 선택해 주세요(중복선택가능)</p>
-        <label><input type="checkbox">쉐이크 종류 음료</label>
-        <label><input type="checkbox">티 종류 음료</label>
-        <label><input type="checkbox">커피 종류 음료</label>
-        <p>동아리 참석 가능 날짜:</p>
-        <label><input type="date"></label>
-        <p>얼.죽.아에서 참여하고 싶은 모임은?</p>
-        <p>
-          <select>
-            <option value="">오늘</option>
-            <option value="">내일</option>
-          </select>
-        </p>
-        <p>포트폴리오 제출하기</p>
-        <button>업로드하기</button>
-        <p>마지막으로 하고 싶은말은?</p>
-        <textarea></textarea>
+        <div>
+          <p>취미를 선택해 주세요</p>
+          <p>          
+            <label><input type="radio" name="hobby">게임하기</label>
+            <label><input type="radio" name="hobby">음악듣기</label>
+            <label><input type="radio" name="hobby">아이스음료 마시기</label>
+          </p>
+        </div>
+        <div>
+          <p>좋아하는 음료를 선택해 주세요(중복선택가능)</p>
+          <p>
+            <label><input type="checkbox">쉐이크 종류 음료</label>
+            <label><input type="checkbox">티 종류 음료</label>
+            <label><input type="checkbox">커피 종류 음료</label>
+          </p>
+        </div>
+        <p>동아리 참석 가능 날짜: <input type="date"></p>
+        <div>
+          <p>얼.죽.아에서 참여하고 싶은 모임은?</p>
+          <p>
+            <select>
+              <option value="">오늘</option>
+              <option value="">내일</option>
+            </select>
+          </p>
+        </div>
+        <div>
+          <p>포트폴리오 제출하기</p>
+          <button>업로드하기</button>
+        </div>
+        <div>
+          <p>마지막으로 하고 싶은말은?</p>
+          <textarea></textarea>
+        </div>
         <div>
           <button type="reset">다시하기</button>
           <button type="submit">제출하기</button>
