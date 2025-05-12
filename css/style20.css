@@ -1,0 +1,62 @@
+@charset "utf-8";
+#one {
+  color: red;
+}
+
+#two {
+  color: orange;
+}
+
+#three {
+  color: yellow;
+}
+
+#four {
+  color: green;
+}
+
+#five {
+  color: blue;
+}
+
+.six {
+  color: navy;
+}
+
+.seven {
+  color: purple;
+}
+
+.eight {
+  color: pink;
+}
+
+.nine {
+  color: skyblue;
+}
+
+.ten {
+  color: brown;
+}
+
+/* 클래스 속성값이 box1인 태그 범위 안에 작성된 li태그만 선택함 */
+.box1 li {
+  color: cadetblue;
+}
+
+.box2 li {
+  color: darkmagenta;
+}
+
+#header .logo {
+  color: red;
+}
+
+#slider .images {
+  color: burlywood;
+}
+
+#slider .buttons {
+  color: aqua;
+}
+
