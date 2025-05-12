@@ -1,0 +1,103 @@
+@charset "utf-8";
+#box1 {
+  border: 2px solid aquamarine;
+}
+
+#box1 .b11 {
+  color: #ff0000;
+}
+
+#box1 .b12 {
+  color: blue;
+}
+
+#box1 .b13 {
+  color: green;
+}
+
+#box2 .b21 {
+  border: 2px solid salmon;
+}
+
+#box2 .b21 p {
+  border: 2px solid black;
+}
+
+#box2 .b22 {
+  border: 2px solid violet;
+}
+
+#box2 .b22 p {
+  border: 2px solid black;
+}
+
+/* 홀수 선택 */
+#box3 li:nth-child(odd) {
+  background-color: antiquewhite;
+}
+
+/* 짝수 선택 */
+#box3 li:nth-child(even) {
+  background-color: azure;
+}
+
+/* 3의 배수 선택 */
+#box3 li:nth-child(3n) {
+  border: 1px solid grey;
+}
+
+/* 첫번째 li만 선택 */
+#box3 li:first-child {
+  color: red;
+}
+
+/* 세번째 li만 선택 */
+#box3 li:nth-child(3) {
+  color: goldenrod;
+}
+
+/* 마지막 li만 선택 */
+#box3 li:last-child {
+  color: blue;
+}
+
+
+/* 
+#box4 div:first-child {
+  color: red;
+=> 위의 선택자에 해당하는 대상 없음
+순서 선택자는 부모를 기준으로 순서를 처리함
+# box4의 첫번째 자식요소는 p태그라서 위의 선택자로 접근이 불가함
+만약 #box4 영역 안의 첫번째 div를 선택하려면, #box4의 입장에서 순서를 매겨야함
+즉, #box4 div:nth-child(3)으로 선택해야함
+} */
+
+/* >: 자식요소만 선택 */
+/* => #box5의 자식요소로 사용된 div태그만 선택함 */
+#box5 > div {
+  padding: 10px;
+  border: 2px solid seagreen;
+}
+
+#box6 {
+  background-color: chartreuse;
+}
+
+/* hover: #box6번 영역에 마우스가 올라가 있을때 */
+#box6:hover {
+  background-color: brown;
+}
+
+#box6::before {
+  content: "before 가상태그";
+}
+
+#box6::after {
+  content: "after 가상태그";
+}
+
+/* 각 태그에 스타일 표현을 위한 보조로 사용하는 가상태그를 추가할 수 있음
+각 태그의 첫번쨰 요소로 before가상태그가 추가되고
+막내 요소로 after가상태그가 추가됨
+이때, content속성 필수 사용해야함. content속성은 가상태그의 내용을 입력하는 속성임
+ */

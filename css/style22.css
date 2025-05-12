@@ -1,0 +1,85 @@
+@charset "utf-8";
+
+.box1 {
+  width: 500px;
+  height: 300px;
+  border: 10px solid black;
+  padding: 50px;
+  margin-bottom: 30px;
+  background-color: antiquewhite;
+}
+
+.box2 {
+  border: 10px solid gray;
+  background-color: azure;
+}
+
+.sam01 {
+  width: 750px;
+  padding: 80px;
+  background-color: lightblue;
+}
+
+.sam01 .ga {
+  width: 500px;
+  height: 150px;
+  margin-bottom: 50px;
+  background-color: #00ffff;
+}
+
+.sam01 .na {
+  width: 650px;
+  height: 150px;
+  margin-bottom: 50px;
+  background-color: #43bfbf;
+}
+
+/* 너비값은 부모의 너비값을 따라간다 */
+.sam01 .da {
+  height: 200px;
+  background-color: rgb(43, 114, 114);
+}
+
+.ex01 {
+  background-color: antiquewhite;
+  width: 750px;
+  padding: 80px;
+}
+
+.ex01 div {
+  margin-bottom: 50px;
+}
+
+.ex01 .ga {
+  width: 500px;
+  height: 150px;
+  background-color: rgb(138, 43, 226);
+}
+
+.ex01 .na {
+  width: 650px;
+  height: 150px;
+  background-color: rgb(117, 36, 193);
+}
+
+.ex01 .da {
+  height: 200px;
+  margin-bottom: 0px;
+  background-color: rgb(72, 22, 119);
+}
+
+.sam02 {
+  background-color: azure;
+  width: 750px;
+  padding: 80px;
+}
+
+.sam02 div {
+  background-color: #4f41ae;
+  height: 150px;
+  margin-bottom: 50px;
+}
+
+.sam02 .da {
+  margin-bottom: 0;
+}
