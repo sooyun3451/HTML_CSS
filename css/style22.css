@@ -68,18 +68,262 @@
   background-color: rgb(72, 22, 119);
 }
 
+/* 샘플02 */
 .sam02 {
-  background-color: azure;
   width: 750px;
   padding: 80px;
+  background-color: azure;
 }
 
 .sam02 div {
-  background-color: #4f41ae;
   height: 150px;
   margin-bottom: 50px;
+  background-color: #4f41ae;
 }
 
 .sam02 .da {
   margin-bottom: 0;
 }
+
+/* 샘플03 */
+.sam03 {
+  width: 500px;
+  padding: 50px;
+  background-color: wheat;
+}
+
+.sam03 div {
+  margin-bottom: 20px;
+}
+
+.sam03 .ga {
+  width: 350px;
+  height: 80px;
+  margin-left: 150px;
+  background-color: beige;
+}
+
+.sam03 .na {
+  width: 400px;
+  height: 100px;
+  background-color: beige;
+}
+
+.sam03 .da {
+  height: 120px;
+  margin-bottom: 0;
+  background-color: beige;
+}
+
+/* 샘플04 */
+.sam04 {
+  width: 500px;
+  padding: 50px;
+  background-color: bisque;
+}
+
+.sam04 div {
+  margin-bottom: 20px;
+}
+
+.sam04 .ga {
+  width: 200px;
+  height: 70px;
+  margin-left: 150px;
+  background-color: azure;
+}
+
+.sam04 .na {
+  width: 350px;
+  height: 90px;
+  margin-left: 75px;
+  background-color: azure;
+}
+
+.sam04 .da {
+  height: 120px;
+  margin-bottom: 0;
+  background-color: azure;
+}
+
+/* 샘플05 */
+.sam05 .ga {
+  width: 500px;
+  padding: 50px;
+  background-color: azure;
+  margin-bottom: 80px;
+}
+
+.sam05 .na {
+  width: 500px;
+  padding: 50px;
+  background-color: azure;
+}
+
+.sam0 .na div {
+  margin-bottom: 20px;
+}
+
+.sam05 .g1 {
+  width: 350px;
+  height: 80px;
+  margin-left: 150px;
+  margin-bottom: 20px;
+  background-color: bisque;
+}
+
+.sam05 .g2 {
+  height: 150px;
+  background-color: bisque;
+}
+
+.sam05 .n1 {
+  width: 250px;
+  height: 70px;
+  background-color: bisque;
+}
+
+.sam05 .n2 {
+  width: 350px;
+  height: 90px;
+  margin-left: 150px;
+  background-color: bisque;
+}
+
+.sam05 .n3 {
+  height: 120px;
+  margin-bottom: 0;
+  background-color: bisque;
+}
+
+/* 샘플05 선생님 */
+.sam05t {
+  width: 600px;
+  background-color: azure;
+}
+
+.sam05t .ga {
+  padding: 50px;
+  margin-bottom: 80px;
+  background-color: bisque;
+}
+
+.sam05t .ga .g1 {
+  width: 350px;
+  height: 80px;
+  margin-left: 150px;
+  margin-bottom: 20px;
+  background-color: rgb(241, 207, 164);
+}
+
+.sam05t .ga .g2 {
+  height: 150px;
+  background-color: rgb(241, 207, 164);
+}
+
+.sam05t .na {
+  padding: 50px;
+  background-color: bisque;
+}
+
+.sam05t .na div{
+  margin-bottom: 20px;
+}
+
+.sam05t .na .n1 {
+  width: 250px;
+  height: 70px;
+  background-color: rgb(241, 207, 164);
+}
+
+.sam05t .na .n2 {
+  width: 350px;
+  height: 90px;
+  margin-left: 150px;
+  background-color: rgb(241, 207, 164);
+}
+
+.sam05t .na .n3 {
+  height: 120px;
+  margin-bottom: 0;
+  background-color: rgb(241, 207, 164);
+}
+
+/* box6, 7 */
+.box6, .box7 {
+  width: 300px;
+  height: 100px;
+  border: 10px solid black;
+}
+
+.box6 {
+  margin-bottom: 100px;
+}
+
+.box7 {
+  margin-top: 150px;
+}
+/* 
+  .box6의 아래쪽 마진 100px과 .box7의 위쪽 마진 150px로 인해 두 태그 사이의 간격이 
+  총 250px로 처리될 것 처럼 보이지만 아님.
+  .box6의 아래쪽 마진영역과 .box7의 위쪽 마진영역은 서로 겹쳐서 표현됨.
+  이때 서로 값이 다르다면 큰 숫자값을 따라 표현됨. 
+  그래서 화면에 표현되는 두 태그 사이의 간격은 150px로 표현되도록 약속되어 있음
+  ? 좌우는 그대로 30,30이면 60으로 표현
+*/
+
+.sam06 {
+  width: 600px;
+  background-color: azure;
+}
+
+.sam06 .ga {
+  width: 500px;
+  padding: 50px;
+  background-color: antiquewhite;
+  margin-bottom: 80px;
+}
+
+.sam06 .ga .g1 {
+  width: 350px;
+  height: 80px;
+  margin-left: 150px;
+  margin-bottom: 20px;
+  background-color: paleturquoise;
+}
+
+.sam06 .ga .g2 {
+  height: 150px;
+  background-color: paleturquoise;
+}
+
+.sam06 .na {
+  width: 500px;
+  padding: 50px;
+  background-color: antiquewhite;
+}
+
+.sam06 .na div {
+  margin-bottom: 20px;
+}
+
+.sam06 .na .n1 {
+  width: 250px;
+  height: 70px;
+  background-color: paleturquoise;
+}
+
+.sam06 .na .n2 {
+  width: 350;
+  height: 90px;
+  margin-left: 150px;
+  background-color: paleturquoise;
+}
+
+.sam06 .na .n3 {
+  height: 120px;
+  margin-bottom: 0;
+  background-color: paleturquoise;
+}
+
+
