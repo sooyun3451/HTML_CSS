@@ -1,0 +1,228 @@
+@charset "utf-8";
+
+.box1 {
+  position: relative;
+  width: 400px;
+  margin-bottom: 50px;
+  background-color: #faebd7;
+}
+
+.box1 div {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(244, 219, 187);
+}
+
+.box1 .b12 {
+  position: absolute;
+  top: 50px;
+  right: 0;
+}
+
+.ga {
+  position: relative;
+  width: 500px;
+  margin-bottom: 50px;
+  background-color: #f0f8ff;
+}
+
+.ga div {
+  width: 100px;
+  height: 100px;
+  background-color: #00ffff;
+}
+
+.ga .ga4 {
+  position: absolute;
+  top: 50px;
+  right: 0;
+}
+
+.na {
+  position: relative;
+  width: 500px;
+  margin-bottom: 50px;
+  background-color: #f0ffff;
+}
+
+.na div {
+  width: 100px;
+  height: 100px;
+  background-color: #7fffd4;
+}
+
+.na .na2 {
+  position: absolute;
+  top: 100px;
+  right: 100px;
+}
+
+.na .na4 {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+.na .na5 {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+}
+
+.na .na7 {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+
+.da {
+  position: relative;
+  width: 500px;
+  margin-bottom: 50px;
+  background-color: #f5f6f6;
+}
+
+.da div {
+  width: 100px;
+  height: 100px;
+  background-color: #faebd7;
+}
+
+.da .da1, .da .da4, .da .da8 {
+  margin-bottom: 40px;
+}
+
+.da .da2 {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+}
+
+.da .da3 {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.da .da5 {
+  position: absolute;
+  top: 140px;
+  right: 0;
+}
+
+.da .da6 {
+  position: absolute;
+  top: 200px;
+  left: 200px;
+}
+
+.da .da7 {
+  position: absolute;
+  top: 280px;
+  right: 0;
+}
+
+.da .da9 {
+  position: absolute;
+  top: 300px;
+  right: 100px;
+}
+
+.ra {
+  position: relative;
+  width: 500px;
+  margin-bottom: 100px;
+  background-color: #d8d0d0;
+}
+
+.ra .rs {
+  width: 100px;
+  height: 100px;
+  background-color: #b09696;
+}
+
+/* 값이랑 상관없이 position만 걸려있으면 위치기준으로 삼을 수 있음 */
+.ra .r3 {
+  width: 300px;
+  height: 200px;
+  background-color: #b09696;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.r3 .r31 {
+  width: 150px;
+  height: 70px;
+  margin-bottom: 30px;
+  background-color: #ad6d6d;
+}
+
+.r3 .r32 {
+  height: 100px;
+  background-color: #ad6d6d;
+}
+
+.r3 .r33 {
+  width: 100px;
+  height: 70px;
+  background-color: #ad6d6d;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.box2 {
+  position: relative;
+  width: 500px;
+  margin-bottom: 100px;
+  background-color: #e6e6fa;
+}
+
+.box2 div {
+  width: 100px;
+  height: 100px;
+  background-color: #a4a4cd;
+}
+
+.box2 .b21 {
+  position: absolute;
+  top: -50px;
+  right: -50px;
+}
+
+/* 
+  좌표값이 양수일 때: 기준태그 경계라인 안쪽 방향으로 배치되는 거리값
+  좌표값이 음수일 때: 기준태그 경계라인 바깥쪽 방향으로 배치되는 거리값
+*/
+
+.box3 {
+  position: relative;
+  width: 500px;
+  margin-bottom: 100px;
+  background-color: #faebd7;
+}
+
+.box3 .bs {
+  width: 100px;
+  height: 100px;
+  background-color: #f3cfa1;
+}
+
+.box3 .b3 {
+  position: absolute;
+  top: 20px;
+  bottom: 20px;
+  right: 20px;
+  left: 120px;
+  background-color: #e0b275;
+}
+
+.box4 {
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  width: 100px;
+  height: 100px;
+  background-color: #e6e6fa;
+}
