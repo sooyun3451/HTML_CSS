@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+.sample10 {
+  width: 1100px;
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+  /* gap: 90px; */
+  background-color: #f0f8ff;
+}
+
+.sample10 .gana {
+  width: 400px;
+}
+
+.sample10 .gana .ga {
+  width: 240px;
+  height: 120px;
+  margin-bottom: 30px;
+  background-color: #abd5f9;
+}
+
+.sample10 .gana .na div {
+  height: 160px;
+  margin-bottom: 10px;
+  background-color: #abd5f9;
+}
+
+.sample10 .gana .na div:last-child{
+  margin-bottom: 0;
+}
+
+.sample10 .da {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  width: 610px;
+}
+
+.sample10 .da div {
+  width: 300px;
+  height: 320px;
+  background-color: #abd5f9;
+}
