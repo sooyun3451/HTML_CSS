@@ -1,0 +1,197 @@
+@charset "utf-8";
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+ul, li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+#box1 {
+  width: 500px;
+  padding: 50px;
+  background-color: #faebd7;
+}
+
+#box1 div {
+  margin-bottom: 20px;
+  background-color: #fbd9ac;
+}
+
+#box1 .ga {
+  margin-left: 150px;
+  width: 350px;
+  height: 80px;
+}
+
+#box1 .na {
+  width: 400px;
+  height: 100px;
+}
+
+#box1 .da {
+  height: 120px;
+  margin-bottom: 0;
+}
+
+#box2 {
+  position: relative;
+  width: 500px;
+  background-color: #f0f8ff;
+}
+
+#box2 > div {
+  width: 100px;
+  height: 100px;
+  background-color: #aad5fa;
+}
+
+#box2 .na {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+}
+
+#box2 .ma {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 350px;
+  height: auto;
+  /*
+  div태그와 같은 블럭요소태그의 높이값을 auto로 설정한다는 것은 
+  태그의 내용물에 따라 높이값을 자동으로 조절되도록 만든다는 의미임
+  */
+}
+
+#box2 .ma .m1 {
+  width: 150px;
+  height: 50px;
+  margin-bottom: 20px;
+  background-color: #7ec0fa;
+}
+
+#box2 .ma .m2 {
+  height: 50px;
+  background-color: #7ec0fa;
+}
+
+#box2 .ma .m3 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50px;
+  height: 50px;
+  background-color: #7ec0fa;
+}
+
+#box3 {
+  display: flex;
+  justify-content: space-between;
+  width: 830px;
+  padding: 50px;
+  margin-bottom: 50px;
+  background-color: #f0ffff;
+}
+
+#box3 div {
+  width: 150px;
+  height: 150px;
+  background-color: #a6f6f6;
+}
+
+#box4 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 830px;
+  padding: 50px;
+  background-color: #f5f5dc;
+}
+
+#box4 div {
+  width: 150px;
+  height: 150px;
+  background-color: #f5f5a2;
+}
+
+/* 샘플8 */
+#sample8 {
+  width: 680px;
+  background-color: #e6e6fa;
+}
+
+#sample8 > div {
+  padding: 50px;
+  background-color: #bfbff6;
+}
+
+#sample8 ul {
+  display: flex;
+  gap: 20px;
+}
+
+#sample8 li {
+  width: 100px;
+}
+
+#sample8 li img {
+  width: 100%;
+  height: auto;
+}
+
+#sample8 .cosmetic {
+  margin-bottom: 70px;
+}
+
+#sample8 .shose ul {
+  flex-wrap: wrap;
+}
+
+/* 
+#sample8 .cosmetic {
+  padding: 50px;
+  margin-bottom: 70px;
+  background-color: #bfbff6;
+}
+
+#sample8 .cosmetic ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+#sample8 .cosmetic li {
+  width: 100px;
+}
+
+#sample8 .cosmetic li img {
+  width: 100%;
+  height: auto;
+}
+
+#sample8 .shose {
+  padding: 50px;
+  background-color: #bfbff6;
+}
+
+#sample8 .shose ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+#sample8 .shose li {
+  width: 100px;
+}
+
+#sample8 .shose li img {
+  width: 100%;
+  height: auto;
+} 
+*/
