@@ -1,0 +1,88 @@
+@charset "utf-8";
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sample14 {
+  display: flex;
+  width: 1180px;
+  height: 1080px;
+}
+
+.gnd {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 280px;
+  background-color: #f5f5dc;
+}
+
+.ga {
+  width: 200px;
+  height: 80px;
+  background-color: #f4f48d;
+  margin: 40px;
+}
+
+.na ul {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.na li {
+  width: 180px;
+  height: 40px;
+  margin-left: 40px;
+  background-color: #f4f48d;
+}
+
+.da ul {
+  display: flex;
+  margin: 40px;
+}
+
+.da li {
+  width: 40px;
+  height: 40px;
+  background-color: #f4f48d;
+}
+
+.rmb {
+  padding-left: 40px;
+  background-color: #c1c187;
+}
+
+.rmb .ra {
+  width: 860px;
+  height: 450px;
+  background-color: #f4f48d;
+  margin-bottom: 40px;
+}
+
+.ma ul {
+  display: flex;
+  margin-bottom: 40px;
+  gap: 16px;
+}
+
+.ma li {
+  width: 276px;
+  height: 276px;
+  background-color: #f4f48d;
+}
+
+.ba ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.ba li {
+  width: 422px;
+  height: 129px;
+  background-color: #f4f48d;
+}

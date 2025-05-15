@@ -100,3 +100,37 @@ ul {
   background-color: #aef9f9;
 }
 
+.ajc {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ajc .aj {
+  width: 290px;
+}
+
+.ajc .aj .aa {
+  height: 300px;
+  margin-bottom: 8px;
+  background-color: #aef9f9;
+}
+
+.ajc .aj .ja {
+  height: 192px;
+  background-color: #aef9f9;
+}
+
+.ajc .cha {
+  width: 886px;
+}
+
+.ajc .cha ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ajc .cha li {
+  width: 295px;
+  height: 500px;
+  background-color: #aef9f9;
+}
