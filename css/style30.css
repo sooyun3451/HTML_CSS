@@ -1,0 +1,87 @@
+@charset "utf-8";
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.sample12 {
+  position: relative;
+  width: 830px;
+  margin-bottom: 50px;
+  background-color: #f0f8ff;
+}
+
+.sample12 .ga {
+  width: 150px;
+  height: 100px;
+  background-color: #bbdcf9;
+}
+
+.sample12 .na {
+  position: absolute;
+  top: 60px;
+  right: 0;
+  display: flex;
+  gap: 10px;
+}
+
+.sample12 .na div {
+  width: 80px;
+  height: 40px;
+  background-color: #bbdcf9;
+}
+
+.sample12 .da {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.sample12 .da div {
+  width: 150px;
+  height: 170px;
+  background-color: #bbdcf9;
+}
+
+/* sample12-2 */
+.sample122 {
+  width: 830px;
+  background-color: #faebd7;
+}
+
+.sample122 .gana {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 20px;
+}
+
+.sample122 .gana .ga {
+  width: 150px;
+  height: 100px;
+  background-color: #f5d2a5;
+}
+
+.sample122 .gana .na ul {
+  display: flex;
+  gap: 10px;
+}
+
+.sample122 .gana .na li {
+  width: 80px;
+  height: 40px;
+  background-color: #f5d2a5;
+}
+
+.sample122 .da ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sample122 .da li {
+  width: 150px;
+  height: 170px;
+  background-color: #f5d2a5;
+}
