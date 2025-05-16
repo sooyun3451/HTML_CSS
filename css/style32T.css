@@ -1,0 +1,89 @@
+@charset "utf-8";
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sample14 {
+  display: flex;
+  /* gap: 40px; */
+  justify-content: space-between;
+  width: 1180px;
+  background-color: #f0ffff;
+}
+
+.left {
+  position: relative;
+  width: 200px;
+  padding: 40px;
+  background-color: #c6f6f6;
+}
+
+.left .ga {
+  width: 200px;
+  height: 80px;
+  margin-bottom: 40px;
+  background-color: #3fafaf;
+}
+
+.sample14 .left .na li {
+  width: 180px;
+  height: 40px;
+  margin-bottom: 8px;
+  background-color: #3fafaf;
+}
+
+.sample14 .left .da {
+  position: absolute;
+  bottom: 40px;
+  left: 40px;
+}
+
+.sample14 .left .da ul {
+  display: flex;
+  gap: 4px;
+}
+
+.sample14 .left .da li {
+  width: 40px;
+  height: 40px;
+  background-color: #3fafaf;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 860px;
+  background-color: #a4f6f6;
+}
+
+.right .ra {
+  height: 450px;
+  background-color: #3fafaf;
+}
+
+.right .ma ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.right .ma li {
+  width: 276px;
+  height: 276px;
+  background-color: #3fafaf;
+}
+
+.right .ba ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.right .ba li {
+  width: 422px;
+  height: 129px;
+  background-color: #3fafaf;
+}

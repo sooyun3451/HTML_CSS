@@ -6,144 +6,232 @@ ul {
   margin: 0;
 }
 
-.sample1 {
-  width: 500px;
-  position: relative;
-  background-color: #e6e6fa;
+p {
+  margin: 0;
 }
 
-.sample1 div {
-  width: 100px;
-  height: 100px;
-  background-color: #b9b9f7;
+/* ? 1층 */
+#row1 {
+  background-color: #d8e2e2;
 }
 
-.sample1 div:last-child {
-  position: absolute;
-  top: 50px;
-  right: 0;
+.gnd {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1200px;
+  height: 180px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #f0ffff;
 }
 
-.sample2 {
-  width: 500px;
-  position: relative;
-  background-color: #e6e6fa;
-}
-
-.sample2 div {
-  width: 100px;
-  height: 100px;
-  background-color: #b9b9f7;
-}
-
-.sample2 .n2 {
-  position: absolute;
-  top: 100px;
-  right: 100px;
-}
-
-.sample2 .n4 {
-  position: absolute;
-  top: 0;
-  right: 0;
-}
-
-.sample2 .n5 {
-  position: absolute;
-  top: 100px;
-  left: 100px;
-}
-
-.sample2 .n7 {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-}
-
-.sample3 {
-  width: 500px;
-  position: relative;
-  background-color: #e6e6fa;
-}
-
-.sample3 div {
-  width: 100px;
-  height: 100px;
-  background-color: #b9b9f7;
-}
-
-.d1, .d4, .d8, .d10 {
-  margin-bottom: 40px;
-}
-
-.d2 {
-  position: absolute;
-  top: 100px;
-  left: 100px;
-}
-
-.d3 {
-  position: absolute;
-  top: 0;
-  right: 0;
-}
-
-.d5 {
-  position: absolute;
-  top: 140px;
-  right: 0;
-}
-
-.d6 {
-  position: absolute;
-  top: 200px;
-  left: 200px;
-}
-
-.d7 {
-  position: absolute;
-  top: 280px;
-  right: 0;
-}
-
-.d9 {
-  position: absolute;
-  top: 300px;
-  left: 300px;
-}
-
-.sample4 {
-  width: 500px;
-  position: relative;
-  background-color: #e6e6fa;
-}
-
-.r3 {
-  position: absolute;
-  top: 0;
-  right: 0;
-}
-
-.r31 {
+.gnd .ga {
   width: 150px;
-  height: 70px;
-  background-color: #b9b9f7;
+  height: 100px;
+  margin: 40px;
+  background-color: #70cece;
 }
 
-.r32 {
+.nada {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 30px;
+}
+
+.gnd .na ul {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.gnd .na li {
+  width: 80px;
+  height: 40px;
+  background-color: #70cece;
+}
+
+.gnd .da ul {
+  display: flex;
+  gap: 30px;
+}
+
+.gnd .da li {
+  width: 120px;
+  height: 70px;
+  background-color: #70cece;
+}
+
+/*? 2층 */
+#row2 {
+  position: relative;
+}
+
+.ra {
+  height: 600px;
+  background-color: #e6e6fa;
+}
+
+.ma {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  /* 
+      위치기준이 되는 #row2의 너비값과 높이값이 유동적인 상황에서 고정된 위치값 사용하기 
+      (현재 예제에서 #row2의 높이값은 600px고정이긴하지만 유동적인 상황이라고 가정했음)
+      - 기준태그의 크기가 유동적인 상황에서 ma의 위치값을 px로 특정 지을 수 없음
+      - 영역의 크기가 유동적이지만 너비값의 1/2과 높이값의 1/2위치, 즉 row2의 정중앙 지점은 항상 같은 지점을 가리킴
+      - ma에 적용한 left 50%는 row2 너비값의 1/2를 가리키고, top 50%는 row2높이값의 1/2를 가리키게 됨
+      - 즉, row2영역의 중앙점에 ma의 왼쪽 상단 꼭지점이 맞취진 상태와 같음
+  */
+  width: 60px;
+  height: 100px;
+  margin-left: -550px;
+  margin-top: -50px;
+  /* 
+      left 50%와 top 50%의 위치에 고정한 태그를 내가 원하는 위치로 이동시켜야함
+      이때 margin값을 마이너스로 처리해 태그의 운동방향을 왼쪽과 위쪽으로 맞춰줌
+  */
+  background-color: #70cece;
+}
+
+.ba {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  width: 60px;
+  height: 100px;
+  margin-right: -550px;
+  margin-top: -50px;
+  background-color: #70cece;
+}
+
+.sa {
+  position: absolute;
+  left: 500px;
+  right: 500px;
+  bottom: 30px;
+  background-color: #70cece;
+}
+
+.sa ul {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.sa li {
+  width: 40px;
+  height: 40px;
+  background-color: #57a2a2;
+}
+
+/* ? 3층 */
+.azcc {
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  width: 1200px;
+}
+
+.aa {
+  margin-left: auto;
+  margin-right: auto;
   width: 300px;
-  height: 100px;
-  background-color: #b9b9f7;
+  height: 50px;
+  background-color: #57a2a2;
+  margin-bottom: 30px;
 }
 
-.r33 {
-  width: 100px;
-  height: 70px;
-  background-color: #b9b9f7;
+.content {
+  display: flex;
+  justify-content: space-between;
 }
 
-.r1, .r2, .r4 {
-  width: 100px;
-  height: 100px;
-  background-color: #b9b9f7;
+.za ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.za li {
+  width: 590px;
+  height: 200px;
+  background-color: #57a2a2 ;
+}
+
+.cha {
+  margin-bottom: 20px;
+  width: 590px;
+  height: 420px;
+  background-color: #57a2a2;
+}
+
+.ca ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ca li {
+  width: 285px;
+  height: 200px;
+  background-color: #57a2a2;
+}
+
+/* ? 4층 */
+.tph {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.ta {
+  margin: 0 auto;
+  margin-bottom: 10px;
+  width: 300px;
+  height: 50px;
+  background-color: #57a2a2;
+}
+
+.pa {
+  margin: 0 auto;
+  margin-bottom: 30px;
+  width: 700px;
+  height: 50px;
+  background-color: #57a2a2;
+}
+
+.ha ul {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.ha li {
+  width: 285px;
+  height: 350px;
+  background-color: #57a2a2;
+}
+
+/* ? 5층 */
+.go {
+  width: 1200px;
+  margin: 0 auto;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.go ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.go li {
+  width: 385px;
+  height: 250px;
+  background-color: #57a2a2;
 }
